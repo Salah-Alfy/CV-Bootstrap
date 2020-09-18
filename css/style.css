@@ -1,0 +1,35 @@
+
+.hero{
+   
+    height: 750px !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.content{
+    position: absolute;
+    overflow: hidden;
+    transform: translateX(100%);
+    transition: .5s;
+}
+
+.buttons button{
+    color: #fff;
+}
+
+.buttons button:hover{
+    color: white;
+}
+
+
+
+.content i{
+    color: teal;
+}
+button:hover i {
+    color: hsl(180, 100%, 25%);
+}
+
+#PersonalInfo{
+    transform: translateX(0%);
+}
